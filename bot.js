@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const ayarlar = require("./ayarlar.json");
 const db = require("quick.db");
+const moment = require("moment");
 var prefix = ayarlar.prefix;
 
 client.on("ready", () => {
